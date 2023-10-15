@@ -1,0 +1,70 @@
+.first{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 8px 100px 10px 100px;
+    border-radius: 10px;
+    outline: none;
+    background-color:wheat;
+    
+}
+.sec{
+    margin-top: -40px;
+    width: 396px;
+    height: 200px;
+    background-image:url(/src/profilecard/sun.jpg) ;
+    border-radius: 5px;
+    outline: none;
+}
+.t-text{
+    
+    word-spacing: 10px;
+    width:400px ;
+    height: 260px;
+    margin-top:40px;
+    border-radius: 10px;
+}
+.textt{
+    font-family: serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px; 
+    font-weight: 444;
+    margin-top: 50px;
+    word-spacing: 10px;
+ }
+.text{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px; 
+ }
+.sec-c,.sec-cc{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-top: 40px;
+}
+.img-size{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.btnn{
+float:right;
+margin-top: 2px;
+margin-right: 120px;
+width: 40%;
+font-size: 28px;
+height: 50px;
+text-decoration-line: none;
+border-radius: 5px;
+font-weight: 400;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 5px 10px;
+background-color: black;
+transition: all 0.3s ease-in-out;  
+}
