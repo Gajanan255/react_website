@@ -1,0 +1,143 @@
+.productsWrapper{
+    margin: 0;
+    font-family: cursive;
+    padding: 0px 20px 0px 20px;
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.card{
+    font-family: cursive;
+    text-align: center;
+    border-radius: 10px;  
+    padding: 20px;
+}
+
+.write{
+    font-weight: 400px;
+    font-size: 15px;
+}
+.click{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+img{
+    height: 80px;
+    width: 100px;
+}
+.cartcard img{
+     padding-left: 20px;
+     
+}
+.cartcard button{
+    float: right;
+    margin-top: -30px;
+    border-radius: 5px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.cartcard{
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+.sub{
+    font-weight: 400;
+    font-size: 15px;
+    color: red;
+}
+.box{
+    color: aliceblue;
+    background-color: black;
+    border:2px solid black;
+    margin: 100px;
+    margin-right: 180px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.boxx{
+    color:black;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.s{
+    position: absolute;
+     display: flex;	
+     margin-top: 10px;
+     margin-left: 160px;
+ }
+ .s img{
+     width: 30px;
+     height: 30px;
+     margin-left: 140px;
+     border-radius: 50%;
+ }
+ .btn{
+	background-color: #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+    border: 2px solid black;
+	color: black;
+	display: inline-block;
+	border-radius: 3px;
+}
+.btn:hover{
+	background-color:white;
+}
+.c{
+    color: black;
+    text-decoration-line: none;
+}
+.table{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px 0px 0px 100px;
+    width: 400px;
+    height: 370px;
+    background-color: aqua;
+}
+.boxxx {
+    padding-left: 42px;
+}
+@media (max-width:768px){
+
+    .table{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px 0px 0px 100px;
+    width: 400px;
+    height: 370px;
+    background-color: aqua;
+}
+.s img{
+    width: 30px;
+    height: 30px;
+    margin-left: 44px;
+    border-radius: 50%;
+}
+.s{
+    position: absolute;
+     display: flex;	
+     margin-top: 20px;
+     margin-left: 140px;
+ }
+}
